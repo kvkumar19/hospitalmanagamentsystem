@@ -1,0 +1,55 @@
+{
+    "admin": [
+        {
+            "id": 1001,
+            "name": "vinay",
+            "email": "kkkk@gamil.com",
+            "password": "sdaf",
+            "type": "addmin"
+        }
+    ],
+    "doctor": [
+        {
+            "id": 1001,
+            "name": "vinay",
+            "phno": 43985098,
+            "email": "kkkk@gamil.com",
+            "password": "sdaf",
+            "add": "hyd",
+            "type": "addmin"
+        },
+        {
+            "id": 1002,
+            "name": "vinayKumar",
+            "phno": 43985098,
+            "email": "asdfsdad@gamil.com",
+            "password": "sdafa",
+            "add": "hydd",
+            "type": "addmin"
+        }
+    ],
+    "patient": [
+        {
+            "id": 1001,
+            "name": "king",
+            "phno": 43985098,
+            "email": "kkkk@gamil.com",
+            "doctor": "vinay",
+            "nurse": "st",
+            "typeofhealth_ishou" :"fiver",
+            "add": "hyd"
+        }
+    ],
+    "nurse": [
+        {
+            "id": 1001,
+            "name": "st",
+            "phno": 43985098,
+            "email": "kkkk@gamil.com",
+            "password": "SDAF",
+            "Doctor": "vinay",
+            "add": "hyd",
+            "type": "nurse"
+        }
+    ]
+}

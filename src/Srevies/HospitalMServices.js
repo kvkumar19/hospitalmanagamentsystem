@@ -5,6 +5,7 @@ const BASICE_URL_DOCTOR = " http://localhost:4201/doctor";
 const BASICE_URL_PATIENT = "http://localhost:4201/patient";
 const BASICE_URL_NURSE = "http://localhost:4201/Nurse";
 class HospitalMServices {
+	// modify by vinay
     getALLADMinData() {
         return axios.get(BASICE_URL_ADDMI);
     }
